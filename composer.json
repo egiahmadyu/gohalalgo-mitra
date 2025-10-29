@@ -1,0 +1,21 @@
+{
+    "name": "egiahmadyu/gohalalgo-mitra",
+    "description": "PHP SDK for GOHALALGO MITRA v2",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "egiahmadyu",
+            "email": "a.rizkyprayogi@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "GohalalgoMitra\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
